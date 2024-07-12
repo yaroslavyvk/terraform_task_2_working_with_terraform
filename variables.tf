@@ -1,9 +1,9 @@
 variable "resource_group_name" {
-  type        = string
+  type = string
 }
 
 variable "location" {
-  type        = string
+  type = string
 }
 
 variable "storage_account_name" {
@@ -12,9 +12,9 @@ variable "storage_account_name" {
 }
 
 variable "container_name" {
-  type        = string
+  type = string
 }
 
 variable "blob_name" {
-  type        = string
+  type = string
 }
