@@ -1,20 +1,25 @@
 variable "resource_group_name" {
-  type = string
+  description = "Name of the resource group."
+  type        = string
 }
 
 variable "location" {
-  type = string
+  description = "Azure region for the resources."
+  type        = string
+  default     = "eastus"
 }
 
 variable "storage_account_name" {
-  description = "task-2-storage"
+  description = "Name of the storage account."
   type        = string
 }
 
 variable "container_name" {
-  type = string
+  description = "Name of the storage container."
+  type        = string
 }
 
 variable "blob_name" {
-  type = string
+  description = "Name of the storage blob."
+  type        = string
 }
